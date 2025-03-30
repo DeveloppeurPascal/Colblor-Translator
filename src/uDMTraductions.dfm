@@ -1,5 +1,4 @@
 object dmTraductions: TdmTraductions
-  OldCreateOrder = False
   OnCreate = DataModuleCreate
   Height = 226
   Width = 543

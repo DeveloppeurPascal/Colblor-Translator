@@ -1,4 +1,4 @@
-/// <summary>
+ï»¿/// <summary>
 /// ***************************************************************************
 ///
 /// Colblor Translator
@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Colblor-Translator
 ///
 /// ***************************************************************************
-/// File last update : 2025-03-30T10:05:30.199+02:00
-/// Signature : 638a82815b91a4670cab61bb0c42f50c2d9d9fcb
+/// File last update : 2025-03-30T17:47:36.000+02:00
+/// Signature : 7a958008c5d938eca73dc0fd693f4a9dbcb43d02
 /// ***************************************************************************
 /// </summary>
 
@@ -35,15 +35,22 @@ unit fAncetreCadreTraduit;
 interface
 
 uses
-  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
-  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls;
+  System.SysUtils,
+  System.Types,
+  System.UITypes,
+  System.Classes,
+  System.Variants,
+  FMX.Types,
+  FMX.Graphics,
+  FMX.Controls,
+  FMX.Forms,
+  FMX.Dialogs,
+  FMX.StdCtrls;
 
 type
   T_AncetreCadreTraduit = class(TFrame)
   private
-    { Déclarations privées }
   public
-    { Déclarations publiques }
   end;
 
 implementation

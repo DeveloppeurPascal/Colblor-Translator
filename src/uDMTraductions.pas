@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Colblor-Translator
 ///
 /// ***************************************************************************
-/// File last update : 2025-03-30T10:05:30.199+02:00
-/// Signature : 8d7b24e86596ff470852f56679f9e8889f427d82
+/// File last update : 2025-03-30T17:48:22.000+02:00
+/// Signature : 121e1343b4ea09467efd684fc7f6d2e47e362dd3
 /// ***************************************************************************
 /// </summary>
 
@@ -35,13 +35,31 @@ unit uDMTraductions;
 interface
 
 uses
-  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option,
-  FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf,
-  FireDAC.DApt.Intf, Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client,
-  FireDAC.Stan.StorageBin, FireDAC.UI.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool,
-  FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.SQLite, FireDAC.Phys.SQLiteDef,
-  FireDAC.Stan.ExprFuncs, FireDAC.Phys.SQLiteWrapper.Stat, FireDAC.FMXUI.Wait,
-  FireDAC.Phys.SQLiteVDataSet, {$IFDEF MSWINDOWS}FireDAC.VCLUI.Wait, {$ENDIF}FMX.Forms;
+  System.SysUtils,
+  System.Classes,
+  FireDAC.Stan.Intf,
+  FireDAC.Stan.Option,
+  FireDAC.Stan.Param,
+  FireDAC.Stan.Error,
+  FireDAC.DatS,
+  FireDAC.Phys.Intf,
+  FireDAC.DApt.Intf,
+  Data.DB,
+  FireDAC.Comp.DataSet,
+  FireDAC.Comp.Client,
+  FireDAC.Stan.StorageBin,
+  FireDAC.UI.Intf,
+  FireDAC.Stan.Def,
+  FireDAC.Stan.Pool,
+  FireDAC.Stan.Async,
+  FireDAC.Phys,
+  FireDAC.Phys.SQLite,
+  FireDAC.Phys.SQLiteDef,
+  FireDAC.Stan.ExprFuncs,
+  FireDAC.Phys.SQLiteWrapper.Stat,
+  FireDAC.FMXUI.Wait,
+  FireDAC.Phys.SQLiteVDataSet,
+  FMX.Forms;
 
 type
   TdmTraductions = class(TDataModule)
@@ -49,9 +67,7 @@ type
     FDStanStorageBinLink1: TFDStanStorageBinLink;
     procedure DataModuleCreate(Sender: TObject);
   private
-    { Déclarations privées }
   public
-    { Déclarations publiques }
   end;
 
 function _(id, DefaultText: string): string;
@@ -64,7 +80,8 @@ implementation
 {$R *.dfm}
 
 uses
-  System.IOUtils, fAncetreFicheTraduite;
+  System.IOUtils,
+  fAncetreFicheTraduite;
 
 var
   LangueSelectionnee: string;

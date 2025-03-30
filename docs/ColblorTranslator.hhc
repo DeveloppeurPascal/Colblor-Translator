@@ -14,6 +14,56 @@
           </OBJECT>
           <UL>
               <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="fAncetreCadreTraduit">
+                  <param name="Local" value="fAncetreCadreTraduit.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="T_AncetreCadreTraduit">
+                                  <param name="Local" value="fAncetreCadreTraduit.T_AncetreCadreTraduit.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="fAncetreFicheTraduite">
+                  <param name="Local" value="fAncetreFicheTraduite.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="T_AncetreFicheTraduite">
+                                  <param name="Local" value="fAncetreFicheTraduite.T_AncetreFicheTraduite.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="fAncetreFicheTraduite.T_AncetreFicheTraduite.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TraduireTextes">
+                                                  <param name="Local" value="fAncetreFicheTraduite.T_AncetreFicheTraduite.TraduireTextes.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
                   <param name="Name" value="fMain">
                   <param name="Local" value="fMain.html">
                   </OBJECT>
@@ -106,6 +156,62 @@
                               <LI> <OBJECT type="text/sitemap">
                                   <param name="Name" value="frmMain">
                                   <param name="Local" value="fMain.frmMain.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="uDMTraductions">
+                  <param name="Local" value="uDMTraductions.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TdmTraductions">
+                                  <param name="Local" value="uDMTraductions.TdmTraductions.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="DataModuleCreate">
+                                                  <param name="Local" value="uDMTraductions.TdmTraductions.DataModuleCreate.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FDStanStorageBinLink1">
+                                                  <param name="Local" value="uDMTraductions.TdmTraductions.FDStanStorageBinLink1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="tabTextesTraduits">
+                                                  <param name="Local" value="uDMTraductions.TdmTraductions.tabTextesTraduits.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Routines">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="ChangeLangue">
+                                  <param name="Local" value="uDMTraductions.ChangeLangue.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="GetLangue">
+                                  <param name="Local" value="uDMTraductions.GetLangue.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="_">
+                                  <param name="Local" value="uDMTraductions._.html">
                                   </OBJECT>
                           </UL>
                   </UL>

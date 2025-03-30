@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Colblor-Translator
 ///
 /// ***************************************************************************
-/// File last update : 2025-03-30T10:05:32.000+02:00
-/// Signature : ab577bc1b6845410cea2d12b335e009dedc67bdf
+/// File last update : 2025-03-30T17:47:26.000+02:00
+/// Signature : b71dae258a5d84a158cb8260aaa923551cfd4f8e
 /// ***************************************************************************
 /// </summary>
 
@@ -35,7 +35,10 @@ program ColblorTranslator;
 uses
   System.StartUpCopy,
   FMX.Forms,
-  fMain in 'fMain.pas' {frmMain};
+  fMain in 'fMain.pas' {frmMain},
+  uDMTraductions in 'uDMTraductions.pas' {dmTraductions: TDataModule},
+  fAncetreFicheTraduite in 'fAncetreFicheTraduite.pas' {_AncetreFicheTraduite},
+  fAncetreCadreTraduit in 'fAncetreCadreTraduit.pas' {_AncetreCadreTraduit: TFrame};
 
 {$R *.res}
 

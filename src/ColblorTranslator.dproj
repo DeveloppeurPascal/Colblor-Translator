@@ -305,6 +305,20 @@
             <Form>frmMain</Form>
             <FormType>fmx</FormType>
         </DCCReference>
+        <DCCReference Include="uDMTraductions.pas">
+            <Form>dmTraductions</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="fAncetreFicheTraduite.pas">
+            <Form>_AncetreFicheTraduite</Form>
+            <FormType>fmx</FormType>
+        </DCCReference>
+        <DCCReference Include="fAncetreCadreTraduit.pas">
+            <Form>_AncetreCadreTraduit</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

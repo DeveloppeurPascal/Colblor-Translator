@@ -1,4 +1,4 @@
-/// <summary>
+ï»¿/// <summary>
 /// ***************************************************************************
 ///
 /// Colblor Translator
@@ -25,8 +25,8 @@
 /// https://github.com/DeveloppeurPascal/Colblor-Translator
 ///
 /// ***************************************************************************
-/// File last update : 2025-03-30T10:05:30.199+02:00
-/// Signature : 3cb4572ca81fc6612aea655bba823e05d2885d6c
+/// File last update : 2025-03-30T17:47:56.000+02:00
+/// Signature : c88586d12607474dfb39f61bf2de2a7391b3f81d
 /// ***************************************************************************
 /// </summary>
 
@@ -35,17 +35,23 @@ unit fAncetreFicheTraduite;
 interface
 
 uses
-  System.SysUtils, System.Types, System.UITypes, System.Classes,
+  System.SysUtils,
+  System.Types,
+  System.UITypes,
+  System.Classes,
   System.Variants,
-  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
-  FMX.Controls.Presentation, FMX.StdCtrls;
+  FMX.Types,
+  FMX.Controls,
+  FMX.Forms,
+  FMX.Graphics,
+  FMX.Dialogs,
+  FMX.Controls.Presentation,
+  FMX.StdCtrls;
 
 type
   T_AncetreFicheTraduite = class(TForm)
   private
-    { Déclarations privées }
   public
-    { Déclarations publiques }
     constructor Create(AOwner: TComponent); override;
     procedure TraduireTextes; virtual;
   end;
@@ -56,8 +62,6 @@ implementation
 
 uses
   uDMTraductions;
-
-{ TFormTraduite }
 
 constructor T_AncetreFicheTraduite.Create(AOwner: TComponent);
 begin
@@ -73,7 +77,7 @@ procedure T_AncetreFicheTraduite.TraduireTextes;
 var
   i: integer;
 begin
-  for i := 0 to Componentcount-1 do
+  for i := 0 to Componentcount - 1 do
     if (components[i] is TPresentedTextControl) then
       (components[i] as TPresentedTextControl).text :=
         _(Name + '.' + components[i].Name,
