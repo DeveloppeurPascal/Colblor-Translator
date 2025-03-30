@@ -1,4 +1,4 @@
-# Delphi-Projects-Template
+# Colblor Translator
 
 [This page in English.](README.md)
 
